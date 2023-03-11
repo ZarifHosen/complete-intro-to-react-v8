@@ -10,7 +10,7 @@
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0
   },
-  "plugins": ["react", "jsx-a11y", "import"],
+  "plugins": ["react", "import", "jsx-a11y"],
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module",
