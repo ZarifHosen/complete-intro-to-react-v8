@@ -35,10 +35,10 @@ const Details = () => {
   );
 };
 
-function DetailsErrorBoundary() {
+function DetailsErrorBoundary(props) {
   return (
     <ErrorBoundary>
-      <Details />
+      <Details {...props} />
     </ErrorBoundary>
   );
 }
